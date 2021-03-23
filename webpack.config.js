@@ -5,6 +5,7 @@ module.exports = {
   devtool: "inline-source-map",
   entry: {
     main: path.resolve(__dirname, "obj/main.js"),
+    server: path.resolve(__dirname, "obj/server.js")
   },
   output: {
     path: path.resolve(__dirname, 'bin'),
