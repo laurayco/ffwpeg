@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+      "rootDir": "src",
+      "outDir": "obj",
+      "target": "es2019",
+      "lib": [
+        "es2019",
+        "dom"
+      ],
+      "module": "commonjs",
+      "esModuleInterop": true,
+      "strict": true,
+      "sourceMap": true
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules/**/*"
+    ]
+}
